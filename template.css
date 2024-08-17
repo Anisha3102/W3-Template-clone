@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    overflow-x: hidden;
+}
 
 
 header{
@@ -231,11 +234,11 @@ form button{
     letter-spacing: 1px;
     background-color: black;
     color: white;
+    border: none;
 }
 
 form button:hover{
     background-color: rgb(167, 164, 164);
-    border: none;
     color: black;
 }
 
